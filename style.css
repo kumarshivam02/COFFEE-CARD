@@ -13,15 +13,15 @@
     align-items: center;
 }
 .container{
-    height: 300px;
-    width: 600px;
+    height: 330px;
+    width: 570px;
     display: flex;
-    box-shadow:0px 0px 20px 5px black;
     border-radius: 20px;
+    background-color: white;
 }
 .left{
     height: 100%;
-    width: 100%;
+    width: 48%;
     object-fit: cover;
 }
 .image{
@@ -33,41 +33,43 @@
 }
 .right{
     height: 100%;
-    width: 100%;
+    width: 52%;
     background-color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 18px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 h3{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 3px;
     color: gray;    
 }
 h1{
-    padding-right: 40px;
-    padding-top: 10px;
+    padding-right: 35px;
+    padding-top: 8px;
     padding-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
  
 }
 p{
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-bottom: 10px;
     color: gray;   
 }
 #discount{
-    font-size: 36px;
+    font-size: 40px;
     color:hsl(158, 36%, 37%);
     font-weight: bolder;   
 }
 .addButton{
-  width: 273px;
-  height: 35px;
+  width: 250px;
+  height: 39px;
   background-color:hsl(158, 36%, 37%) ;
   border-radius: 10px;
   border: none;
@@ -77,7 +79,7 @@ p{
 .buttonText{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin-left: 1rem;
+    margin-left: 25px;
 }
 .addButton:hover{
     background-color: rgb(2, 63, 2);
